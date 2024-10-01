@@ -74,6 +74,10 @@ flutter:
     - assets/images/a.jpg
     - assets/images/b.jpg
     - assets/images/c.webp
+    - assets/images/sulek.jpeg
+    - assets/images/Bella.jpeg
+    - assets/images/budiono.jpeg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -28,49 +28,49 @@ class _HomepageState extends State<Homepage> {
 
   final List<Trainer> trainerList = [
     Trainer(
-        name: "Ling",
+        name: "Sulek",
         experienceYears: 12,
         rating: 5,
-        imageUrl: 'assets/images/c.webp'),
+        imageUrl: 'assets/images/sulek.jpeg'),
+    Trainer(
+        name: "Budiono",
+        experienceYears: 4,
+        rating: 4.8,
+        imageUrl: 'assets/images/budiono.jpeg'),
+    Trainer(
+        name: "Bella",
+        experienceYears: 4,
+        rating: 4.8,
+        imageUrl: 'assets/images/Bella.jpeg'),
     Trainer(
         name: "Supriono",
         experienceYears: 4,
         rating: 4.8,
-        imageUrl: 'assets/images/a.jpg'),
-    Trainer(
-        name: "Supriono",
-        experienceYears: 4,
-        rating: 4.8,
-        imageUrl: 'assets/images/a.jpg'),
-    Trainer(
-        name: "Supriono",
-        experienceYears: 4,
-        rating: 4.8,
-        imageUrl: 'assets/images/a.jpg'),
+        imageUrl: 'assets/images/budiono.jpeg'),
   ];
 
   final List<Class> classList = [
     Class(
       title: "Zumba",
-      description: "Zumba",
+      description: "Latihan zumba untuk mengurangi berat badan",
+      time: DateTime.now(),
+      imageUrl: 'assets/images/a.jpg',
+    ),
+    Class(
+      title: "Boxing",
+      description: "Boxing langsung dengan mike",
+      time: DateTime.now(),
+      imageUrl: 'assets/images/c.webp',
+    ),
+    Class(
+      title: "Senam",
+      description: "Senam dipimpin ketua kelas",
       time: DateTime.now(),
       imageUrl: 'assets/images/b.jpg',
     ),
     Class(
-      title: "Zumba",
-      description: "Zumba",
-      time: DateTime.now(),
-      imageUrl: 'assets/images/b.jpg',
-    ),
-    Class(
-      title: "Zumba",
-      description: "Zumba",
-      time: DateTime.now(),
-      imageUrl: 'assets/images/b.jpg',
-    ),
-    Class(
-      title: "Zumba",
-      description: "Zumba",
+      title: "Dance",
+      description: "Dance bersama trainer",
       time: DateTime.now(),
       imageUrl: 'assets/images/b.jpg',
     ),
